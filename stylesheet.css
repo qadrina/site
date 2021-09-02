@@ -28,6 +28,29 @@ body, html {
   min-height: 400px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #ad7997;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #fffcff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 h1 {
     font-size: 10vw;
     font-family:'Montserrat', 'Helvetica', 'Sans-Serif';
