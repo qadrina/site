@@ -133,12 +133,12 @@ h3 {
     margin: 30px 90px 70px 90px;
     padding:20px 80px;
   } 
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones -- WAIT NOOO WHY WOULD I DEACTIVATE THE PARALLAX?? that's literally the cool thing about my web
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
   }
-}
+} */
 
 @media screen and (min-width: 601px) {
   h1.example {
