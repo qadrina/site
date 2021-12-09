@@ -2,16 +2,18 @@
 <html lang="en">
 <title>QADRINA</title>
 <meta charset="UTF-8">
-<meta name="keywords" content="Illustration, Food Illustration, Object Illustration, Still Life Illustration">
+<meta name="keywords" content="Illustration, Food Illustration, Object Illustration, Freelance Illustrator, Still Life Illustration">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 .w3-third img{margin-bottom: 12px; cursor: pointer}
-/*.w3-third img:hover{opacity: 0.9} cursor: pointer */
+.w3-third img:hover{filter:brightness(85%)}
 </style>
 <body class="w3-white w3-content" style="max-width:1600px">
 
@@ -19,7 +21,16 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="w3-padding-64 w3-center"><img src="https://live.staticflickr.com/65535/51693113829_e2afdce2ef_b.jpg" style="width:240px"><b><br></b></h3>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a> 
+  <div class="dropdown">
+  <button type="button" class="w3-bar-item w3-button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    PORTFOLIO
+  </button>
+   <div class="dropdown-menu">
+    <a class="dropdown-item" href="#" onclick="w3_close()">Illustrations</a>
+    <a class="dropdown-item" href="#" onclick="w3_close()">Web App Projects</a>
+   </div>
+  </div>
   <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
   <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
   <a href="https://twitter.com/qadrinn" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
@@ -114,6 +125,10 @@ function onClick(element) {
 }
 
 </script>
+<!-- bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </body>
