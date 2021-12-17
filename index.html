@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>QADRINA</title>
+<title>QADRINA: Illustrations</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="Illustration, Food Illustration, Object Illustration, Freelance Illustrator, Still Life Illustration">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +15,37 @@
 body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 .w3-third img{margin-bottom: 12px; cursor: pointer}
 .w3-third img:hover{filter:brightness(85%)}
+
+.boxy {
+  width: 70%;
+  height: 2px;
+  background: #ffccff;
+  margin: 2.1em auto;
+  padding: auto;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #ffccff;
+}
+
+.button4:hover {background-color: #ffccff;}
+
 </style>
 <body class="w3-white w3-content" style="max-width:1600px">
 
@@ -22,13 +53,13 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="w3-padding-64 w3-center"><img src="https://live.staticflickr.com/65535/51693113829_e2afdce2ef_b.jpg" style="width:240px"><b><br></b></h3>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">[X]</a>
-  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a> 
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ILLUSTRATIONS</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">WEBDEV PROJECTS</a>
-  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
-  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-  <a href="https://twitter.com/qadrinn" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-  <a href="https://instagram.com/qadrinn" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a> 
+  <a href="illustrations.html" onclick="w3_close()" class="w3-bar-item w3-button">Illustrations</a>
+  <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button">IT Projects</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a> 
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+  <a href="https://twitter.com/qadrinn" target="_blank"><i class="fa fa-twitter w3-hover-opacity w3-large"></i></a>
+  <a href="https://instagram.com/qadrinn" target="_blank"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -48,7 +79,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
   <div class="w3-hide-large" style="margin-top:83px"></div>
   
   <!-- Photo grid -->
-  <div class="w3-row-padding" style="padding-top:12px">
+  <div class="w3-row-padding">
+   <div class="w3-col w3-center" style="padding-top: 1em">
+    <h2>Illustrations</h2>
+   </div>
     <p style="font-size:11px; color:#a6a6a6; text-align:center;">(click image to enlarge)</p>
     <div class="w3-third">
       <img src="https://live.staticflickr.com/65535/51734054185_0804933b35_b.jpg" style="width:100%" onclick="onClick(this)" alt="Fanart: Nanami Kento from Jujutsu Kaisen">
@@ -56,13 +90,24 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 
     <div class="w3-third">
       <img src="https://live.staticflickr.com/65535/51692598191_1d279e1ec2_b.jpg" style="width:100%" onclick="onClick(this)" alt="Strawberry Desserts">
-      <img src="https://live.staticflickr.com/65535/51733872264_2f007dc877_b.jpg" style="width:100%" onclick="onClick(this)" alt="Bold icons">
     </div>
     
     <div class="w3-third">
-      <img src="https://live.staticflickr.com/65535/51733327671_ff3c277d38_b.jpg" style="width:100%" onclick="onClick(this)" alt="Hi">
+      <img src="https://live.staticflickr.com/65535/51733872264_2f007dc877_b.jpg" style="width:100%" onclick="onClick(this)" alt="Bold icons">
     </div>
   </div>
+<div class="w3-center">
+<a href="illustrations.html"><button class="button button4">See more</button></a>
+</div>
+
+<div class="boxy"></div>
+
+<div class="w3-row-padding">
+ <div class="w3-col w3-center" style="padding-top: 0.2em">
+    <h2>Developer Projects</h2>
+ </div>
+</div>
+<p class="w3-center">This section is currently under development! Coming soon.</p>
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
@@ -85,15 +130,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
     </div>
   </div>
   
-  <div class="w3-white w3-center w3-padding-24">All Rights Reserved.</div>
-
-  <!-- unused codes
-      <img src="https://live.staticflickr.com/65535/51692598191_1d279e1ec2_b.jpg" style="width:100%" onclick="onClick(this)" alt="Strawberry Desserts">
-      <img src="https://live.staticflickr.com/65535/51734054185_0804933b35_b.jpg" style="width:100%" onclick="onClick(this)" alt="Fanart: Nanami Kento from Jujutsu Kaisen">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="art2">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="art3">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="art5">
-      <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="art6"> -->
+  <div class="w3-white w3-center w3-padding-24" style="font-size:11px">All Rights Reserved. Powered by w3.css</div>
 
 <!-- End page content -->
 </div>
