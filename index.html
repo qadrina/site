@@ -22,6 +22,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
   background: #ffccff;
   margin: 2.1em auto;
   padding: auto;
+  display:none;
+  visibility:hidden;
 }
 
 .button {
@@ -45,6 +47,36 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 }
 
 .button4:hover {background-color: #ffccff;}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 1em;;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .boxy {
+  visibility:visible;
+  display: block;
+  }
+}
+
 
 </style>
 <body class="w3-white w3-content" style="max-width:1600px">
@@ -79,35 +111,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
   <div class="w3-hide-large" style="margin-top:83px"></div>
   
   <!-- Photo grid -->
-  <div class="w3-row-padding">
-   <div class="w3-col w3-center" style="padding-top: 1em">
-    <h2>Illustrations</h2>
-   </div>
-    <p style="font-size:11px; color:#a6a6a6; text-align:center;">(click image to enlarge)</p>
-    <div class="w3-third">
-      <img src="https://live.staticflickr.com/65535/51734054185_0804933b35_b.jpg" style="width:100%" onclick="onClick(this)" alt="Fanart: Nanami Kento from Jujutsu Kaisen">
-    </div>
-
-    <div class="w3-third">
+  <div class="row">
+   <div class="column">
+    <h2 class="w3-center">Illustrations</h2>
       <img src="https://live.staticflickr.com/65535/51692598191_1d279e1ec2_b.jpg" style="width:100%" onclick="onClick(this)" alt="Strawberry Desserts">
-    </div>
-    
-    <div class="w3-third">
-      <img src="https://live.staticflickr.com/65535/51733872264_2f007dc877_b.jpg" style="width:100%" onclick="onClick(this)" alt="Bold icons">
-    </div>
-  </div>
-<div class="w3-center">
-<a href="illustrations.html"><button class="button button4">See more</button></a>
-</div>
+      <div class="w3-center" style="padding-top:1em;"><a href="illustrations.html"><button class="button button4">See more</button></a></div>
+      <div class="boxy"></div>
+   </div>
 
-<div class="boxy"></div>
-
-<div class="w3-row-padding">
- <div class="w3-col w3-center" style="padding-top: 0.2em">
-    <h2>Coding Projects</h2>
+<div class="row">
+ <div class="column">
+    <h2 class="w3-center">Coding Projects</h2>
+    <p class="w3-center">This section is currently under development! Coming soon.</p>
  </div>
 </div>
-<p class="w3-center">This section is currently under development! Coming soon.</p>
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
