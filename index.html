@@ -19,11 +19,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 .boxy {
   width: 70%;
   height: 2px;
-  background: #ffccff;
+  background: #ffcce2;
   margin: 2.1em auto;
   padding: auto;
   display:none;
   visibility:hidden;
+}
+  
+.boxy2 {
+  width: 70%;
+  height: 2px;
+  background: #ffcce2;
+  margin: 2.1em auto;
+  padding: auto;
+  display:block;
+  visibility:visible;
 }
 
 .button {
@@ -43,10 +53,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 .button4 {
   background-color: white;
   color: black;
-  border: 2px solid #ffccff;
+  border: 2px solid #ffcce2;
 }
 
-.button4:hover {background-color: #ffccff;}
+.button4:hover {background-color: #ffcce2;}
 
 * {
   box-sizing: border-box;
@@ -109,19 +119,26 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
 
   <!-- Push down content on small screens --> 
   <div class="w3-hide-large" style="margin-top:83px"></div>
+
+ <!-- intro -->
+<div class="w3-container w3-center" style="margin-left:1em; margin-right:1em;">
+	<h1><b>I'm Adrin</b></h1>
+    <p>A freelance illustrator and aspiring web developer. I've been making illustrations for individuals and online stores. Currently learning C# software development.</p>
+    <div class="boxy2">
+</div>
   
   <!-- Photo grid -->
   <div class="row">
    <div class="column">
-    <h2 class="w3-center">Illustrations</h2>
-      <img src="https://live.staticflickr.com/65535/51692598191_1d279e1ec2_b.jpg" style="width:100%" onclick="onClick(this)" alt="Strawberry Desserts">
+     <h3 class="w3-center"><b>Illustrations</b></h3>
+      <img src="https://live.staticflickr.com/65535/51692598191_1d279e1ec2_b.jpg" style="width:100%" alt="Strawberry Desserts">
       <div class="w3-center" style="padding-top:1em;"><a href="illustrations.html"><button class="button button4">See more</button></a></div>
       <div class="boxy"></div>
    </div>
 
 <div class="row">
  <div class="column">
-    <h2 class="w3-center">Coding Projects</h2>
+   <h3 class="w3-center"><b>Coding Projects</b></h3>
     <p class="w3-center">This section is currently under development! Coming soon.</p>
  </div>
 </div>
