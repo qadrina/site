@@ -62,7 +62,7 @@ a:active {color:#905fd4;}
 }
 
 .real-content {
-  border: 3px solid #2138b8;
+  border: 2px solid #2138b8;
   background-color: #e889bd;
   max-width: 1000px;
   margin-left: auto;
@@ -72,24 +72,24 @@ a:active {color:#905fd4;}
 }
 
 .intro-tab {
-  border-top: 3px solid #2138b8;
-  border-right: 3px solid #2138b8;
-  border-left: 3px solid #2138b8;
+  border-top: 2px solid #2138b8;
+  border-right: 2px solid #2138b8;
+  border-left: 2px solid #2138b8;
   width: 170px;
   text-align: left;
   padding: 10px;
   margin: 0;
   font-family: 'VT323', monospace;
   font-size: 25px;
-  background-color: #fcc52b;
+  background-color: #e6d64c;
   border-radius: 10px 10px 0 0;
   z-index: 1;
 }
 .ribbon {
-  border-top: 3px solid #2138b8;
-  border-left: 3px solid #2138b8;
-  border-right: 3px solid #2138b8;
-  background-color:#406ac9;
+  border-top: 2px solid #2138b8;
+  border-left: 2px solid #2138b8;
+  border-right: 2px solid #2138b8;
+  background-color: #3d74cc;
   height:50px;
   z-index: 1;
 }
@@ -116,13 +116,14 @@ a:active {color:#905fd4;}
   background-color: #dfe3ed; 
   margin:13px 0 0 75px; 
   border-radius: 5px;
+  border: 1px solid #999999;
 }
 .footer {
-  border-left: 3px solid #2138b8;
-  border-right: 3px solid #2138b8;
-  border-bottom: 3px solid #2138b8;
+  border-left: 2px solid #2138b8;
+  border-right: 2px solid #2138b8;
+  border-bottom: 2px solid #2138b8;
   border-radius: 0 0 10px 10px;
-  background-color: #fcc52b;
+  background-color: #e6d64c;
   height:50px;
   z-index: 1;
   font-size: 13px;
@@ -130,7 +131,7 @@ a:active {color:#905fd4;}
 }
 
 .names {
-  border: 3px solid #2138b8;
+  border: 2px solid #2138b8;
   background-color: #ffcce2;
   width:200px;
   height: 220px;
