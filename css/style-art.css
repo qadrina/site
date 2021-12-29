@@ -7,7 +7,7 @@ display:block}
 
 body {
   font-family: 'Spartan', sans-serif;
-  background-color: #d35fb7;
+  background-color: #d690c5;
   height: 100%;
 }
 
@@ -42,7 +42,7 @@ a:active {text-decoration:none; background-color:#ffffcc;}
 }
 
 .page {
-  background-color: #ffcfff;
+  background-color: #ffdeff;
   border: 2px solid #0c0a1c;
   width:800px;
   margin:auto;
