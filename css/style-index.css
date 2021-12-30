@@ -195,7 +195,7 @@ a:active {color:#905fd4;}
 }
 
 .button:hover {background-color: #161853;color:#fff88f;}
-.pfp {border:0; max-height:220px;}
+.pfp {border:0; height:260px; width:260px;}
 .center {text-align:center;}
 .large {font-size:36px!important}
 p.center {
@@ -234,5 +234,5 @@ h3{font-size:1.1em}
   p{font-size:0.8em}
   .right {padding:0.5em}
   .zigzag {width:200px}
-  .pfp {max-height:125px}
+  .pfp {height:170px; width:170px;}
 }
