@@ -168,7 +168,7 @@ a:active {color:#905fd4;}
 }
 .divider {height:2px; width:300px; background-color:#161853;margin: 1em auto;}
 
-.zigzag {margin:1em auto; width:450px;}
+.zigzag {margin:1em auto; width:450px;display:block;}
 
 /* emboss effect */
 .foto {
