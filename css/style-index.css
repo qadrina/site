@@ -216,6 +216,7 @@ p.center {
   .tab {font-size:0.8em; width:83px; padding:6px;}
   .intro, .real-content, .ribbon, .footer {box-shadow:0px 0px;}
   .ribbon {height:50px;}
+  .button {padding:10px 25px; font-size:14px;}
   .boxy {
   width:150px;
   height:40px;
