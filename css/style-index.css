@@ -76,11 +76,11 @@ a:active {color:#905fd4;}
   border-top: 2px solid #161853;
   border-right: 2px solid #161853;
   border-left: 2px solid #161853;
-  width: 135px;
+  width: 132px;
   text-align: center;
   z-index: 1;
   display:inline-block;
-  padding: 10px;
+  padding: 9px;
   margin: 0;
   font-family: 'Spartan', sans-serif;
   font-size: 18px;
@@ -213,8 +213,9 @@ p.center {
     width: 100%;
   }
   .content {padding:15px 5px;}
-  .tab {font-size:0.8em; width:90px; padding:7px;}
+  .tab {font-size:0.8em; width:83px; padding:6px;}
   .intro, .real-content, .ribbon, .footer {box-shadow:0px 0px;}
+  .ribbon {height:50px;}
   .boxy {
   width:150px;
   height:40px;
