@@ -63,12 +63,12 @@ a:active {color:#905fd4;}
 
 .real-content {
   border: 2px solid #161853;
-  background-color: #d690c5;
+  background-color: #e3a6d4;
   box-shadow: -10px 10px #161853;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 15px 30px;
   z-index: 1;
 }
 
@@ -97,13 +97,16 @@ a:active {color:#905fd4;}
   z-index: 1;
 }
 
-.intro {text-align:left; margin:10px 0 0 15px; font-size:0.8em; font-weight:600;color:#161853;}
+.intro {text-align:center;padding:50px;}
+
+.minibanner {text-align:left; margin:10px 0 0 15px; font-size:0.8em; font-weight:600;color:#161853;}
 .desc {padding:1.5em; text-align:justify;}
+.borderhover:hover {border-bottom:2px solid darkslateblue;}
 
 /* COLUMN */
 .column {
   float: left;
-  padding: 10px;
+  padding: 12px;
 }
 
 .left {width:35%; padding-left:2em;}
@@ -178,6 +181,7 @@ a:active {color:#905fd4;}
   border-left:2px solid #ded1dc;
   width: 100%;
 }
+
 .foto2 {width:100%}
 
 .button {
@@ -196,7 +200,13 @@ a:active {color:#905fd4;}
 }
 
 .button:hover {background-color: #161853;color:#fff88f;}
+
+.hp-div {background-color: #161853; height:2px; margin: 1.2em auto; width:250px; display:none; border:0;}
+
+.pfp {border:0; max-height:220px;}
 .center {text-align:center;}
+.just {text-align:justify;}
+.midi {font-size:30px!important}
 .large {font-size:36px!important}
 p.center {
   text-align:center;
@@ -207,6 +217,7 @@ p.center {
 /* RESPONSIVE */
 @media screen and (max-width:850px) and (min-width:601px) {
   .boxy {margin-left: 2em;}
+  .real-content {padding:10px 20px;}
 }
 
 @media screen and (max-width:600px) {
@@ -215,7 +226,7 @@ p.center {
   }
   .content {padding:15px 5px;}
   .tab {font-size:0.8em; width:83px; padding:6px;}
-  .intro, .real-content, .ribbon, .footer {box-shadow:0px 0px;}
+  .minibanner, .real-content, .ribbon, .footer {box-shadow:0px 0px;}
   .ribbon {height:50px;}
   .button {padding:10px 25px; font-size:14px;}
   .boxy {
@@ -234,6 +245,9 @@ h1{font-size:1.5em}
 h2{font-size:1.3em}
 h3{font-size:1.1em}
   p{font-size:0.8em}
+  .hp-div {visibility:visible;display:block;}
+  .midi {font-size:20px!important;}
   .right {padding:0.5em}
   .zigzag {width:200px}
+  .pfp {max-height:125px}
 }
