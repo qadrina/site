@@ -246,6 +246,8 @@ h1{font-size:1.5em}
 h2{font-size:1.3em}
 h3{font-size:1.1em}
   p{font-size:0.8em}
+  
+  .bio {padding:0px;}
   .hp-div {visibility:visible;display:block;}
   .midi {font-size:20px!important;}
   .right {padding:0.5em}
