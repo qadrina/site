@@ -180,7 +180,7 @@ a:active {color:#905fd4;}
 }
 
 .foto2 {width:100%}
-.foto3 {width:100%; box-shadow:-5px 5px #161853;}
+.foto3 {width:100%; box-shadow:-5px 5px #161853; border:2px solid #161853;}
 
 .button {
   background-color: #fff88f;
