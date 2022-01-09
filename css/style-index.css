@@ -98,6 +98,7 @@ a:active {color:#905fd4;}
 }
 
 .intro {text-align:center;padding:50px;}
+.bio {text-align:justify; padding:2em;}
 
 .minibanner {text-align:left; margin:10px 0 0 15px; font-size:0.8em; font-weight:600;color:#161853;}
 .desc {padding:1.5em; text-align:justify;}
