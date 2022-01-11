@@ -103,7 +103,7 @@ a:active {color:#905fd4;}
 /* COLUMN */
 .column {
   float: left;
-  padding: 10px;
+  padding: 15px;
 }
 
 .left {width:35%; padding-left:2em;}
@@ -219,6 +219,7 @@ p.center {
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
+    padding:10px;
   }
   .content {padding:15px 5px;}
   .tab {font-size:0.8em; width:83px; padding:6px;}
