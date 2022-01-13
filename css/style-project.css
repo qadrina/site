@@ -39,7 +39,7 @@ a:hover {
   text-decoration:none;
 }
 a:visited {
-  color: #4b1c8c;
+  /*color: #4b1c8c; */
   text-decoration:none;
 }
 a:active {color:#905fd4;}
