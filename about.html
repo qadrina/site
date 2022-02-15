@@ -21,10 +21,12 @@
     
   </head>
   
-  <body class="content">
+  <body class="content" onload="printConsole()">
     <script>
-      var contact = document.getElementById("contact");
-      console.log(contact.innerHTML);
+      function printConsole() {
+        var contact = document.getElementById("contact");
+        console.log(contact.innerHTML);
+      }
     </script>
     
 <!-- CONTENT -->
