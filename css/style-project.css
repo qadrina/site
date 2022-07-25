@@ -134,7 +134,7 @@ a:active {color:#905fd4;}
   box-shadow: -5px 5px #161853;
 }
 .box-2 {
-  width:200px;
+  width:250px;
   height:50px;
   padding: 7px;
   background-color: #fff88f;
@@ -142,7 +142,7 @@ a:active {color:#905fd4;}
   margin-left:auto;
   margin-right: auto;
   margin-bottom: -0.2em;
-  -shadow: -5px 5px #161853;
+  box-shadow: -5px 5px #161853;
 }
 .rotate-l {
   -ms-transform: rotate(-10deg); /* IE 9 */
@@ -233,7 +233,7 @@ p.center {
   margin-right: auto;
     margin-bottom:1.5em;
 }
-  .box-2 {width:150px;
+  .box-2 {width:180px;
   height:40px;
   margin-left:auto;
   margin-right: auto;
