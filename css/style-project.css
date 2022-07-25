@@ -10,7 +10,7 @@ display:block}
 
 body {
   font-family: 'Spartan', sans-serif;
-  background-color: #f7e1f5;
+  background-color: #f0edf2;
   height: 100%;
 }
 
@@ -63,7 +63,7 @@ a:active {color:#905fd4;}
 
 .real-content {
   border: 2px solid #161853;
-  background-color: #d690c5;
+  background-color: #e7d1f0;
   box-shadow: -10px 10px #161853;
   max-width: 1000px;
   margin-left: auto;
@@ -84,14 +84,14 @@ a:active {color:#905fd4;}
   margin: 0;
   font-family: 'Spartan', sans-serif;
   font-size: 18px;
-  background-color: #fff88f;
+  background-color: #fcf9bd;
   border-radius: 10px 10px 0 0;
 }
 .ribbon {
   border-top: 2px solid #161853;
   border-left: 2px solid #161853;
   border-right: 2px solid #161853;
-  background-color: #98BAE7;
+  background-color: #c3d8d1;
   height:35px;
   box-shadow: -10px 10px #161853;
   z-index: 1;
@@ -137,7 +137,7 @@ a:active {color:#905fd4;}
   width:250px;
   height:50px;
   padding: 7px;
-  background-color: #fff88f;
+  background-color: #fcf9bd;
   border: 2px solid #161853;
   margin-left:auto;
   margin-right: auto;
@@ -159,7 +159,7 @@ a:active {color:#905fd4;}
   border-right: 2px solid #161853;
   border-bottom: 2px solid #161853;
   border-radius: 0 0 10px 10px;
-  background-color: #fff88f;
+  background-color: #fcf9bd;
   height:40px;
   z-index: 1;
   box-shadow: -10px 10px #161853;
