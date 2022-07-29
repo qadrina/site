@@ -1,3 +1,3 @@
-# site
-Hi, this is Najla Qadrina's website.
-Currently still working on to fix the interface.
+# Najla Qadrina's Portfolio Site
+
+Hi, this is Najla Qadrina's website. This site is constantly updated with new projects and improvements.
