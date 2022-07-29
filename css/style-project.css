@@ -103,7 +103,7 @@ a:active {color:#905fd4;}
 /* COLUMN */
 .column {
   float: left;
-  padding: 15px;
+  padding: 20px;
 }
 
 .left {width:35%; padding-left:2em;}
