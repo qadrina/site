@@ -199,6 +199,8 @@ a:active {color:#905fd4;}
 
 .button:hover {background-color: #161853;color:#fff88f;}
 
+.bio {text-align:justify; padding:1em; width: 500px}
+
 .hp-div {background-color: #161853; height:2px; margin: 1.2em auto; width:250px; display:none; border:0;}
 
 .pfp {border:0; max-height:220px;}
@@ -243,7 +245,7 @@ h2{font-size:1.3em}
 h3{font-size:1.1em}
   p{font-size:0.8em}
   .hp-div {visibility:visible;display:block;}
-  
+  .bio {padding:15px 0px;}
   .right {padding:0.5em}
   .zigzag {width:200px}
   .pfp {max-height:125px}
