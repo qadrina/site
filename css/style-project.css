@@ -250,7 +250,7 @@ h2{font-size:1.3em}
 h3{font-size:1.1em}
   p{font-size:0.8em}
   .hp-div {visibility:visible;display:block;}
-  .bio {padding:15px 0px; margin:auto;}
+  .bio {padding:15px 0px; margin:auto; width: 100%}
   .right {padding:0.5em}
   .zigzag {width:200px}
   .pfp {max-height:125px}
